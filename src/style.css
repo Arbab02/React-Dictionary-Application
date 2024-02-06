@@ -1,0 +1,47 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-bottom: 5px solid green;
+  font-size: 26px;
+
+}
+
+#tabel-heading th {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#tabel-heading th:first-child {
+  border-top-left-radius: 7px;
+
+}
+
+#tabel-heading th:last-child {
+  border-top-right-radius: 7px;
+
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #d0c3c3;
+  color: green;
+  cursor: pointer;
+}
+  
